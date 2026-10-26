@@ -4,6 +4,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { ORGANIZATION, SITE_NAME, SITE_URL } from '@/lib/site';
 import { getDictionary } from '@/lib/dictionaries';
 import { getLocalizedHref } from '@/lib/utils';
+import { buildPageAlternates } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -14,14 +15,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dict = await getDictionary(lang, 'benefits');
   const pageTitle = dict?.meta?.title || 'Benefits of Moroccan Black Soap – Organic Beldi Soap for Skin & Hair';
   const pageDescription = dict?.meta?.description || 'Discover the benefits of authentic Moroccan black soap (Beldi). Natural exfoliation, hydration, detoxifying, and anti-aging properties for skincare, spa treatments, and wholesale cosmetic use.';
-  const canonicalUrl = `${SITE_URL}${getLocalizedHref('/benefits', lang)}`;
+  const alternates = buildPageAlternates('/benefits', lang);
+  const canonicalUrl = alternates.canonical as string;
 
   return {
     title: { absolute: pageTitle },
     description: pageDescription,
-    alternates: {
-      canonical: canonicalUrl,
-    },
+    alternates,
     openGraph: {
       type: 'website',
       url: canonicalUrl,

@@ -7,6 +7,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { getProduct, products } from '@/lib/products';
 import { SITE_NAME, SITE_URL } from '@/lib/site';
 import { getLocalizedHref } from '@/lib/utils';
+import { buildPageAlternates } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ lang: string; slug: string }>;
@@ -23,13 +24,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const product = getProduct(slug);
   if (!product) return {};
 
-  const canonicalUrl = `${SITE_URL}${getLocalizedHref(`/products/${product.slug}`, lang)}`;
+  const alternates = buildPageAlternates(`/products/${product.slug}`, lang);
+  const canonicalUrl = alternates.canonical as string;
   const title = `${product.title} | Moroccan Black Soap Wholesale`;
 
   return {
     title: { absolute: title },
     description: product.summary,
-    alternates: { canonical: canonicalUrl },
+    alternates,
     openGraph: {
       type: 'website',
       url: canonicalUrl,

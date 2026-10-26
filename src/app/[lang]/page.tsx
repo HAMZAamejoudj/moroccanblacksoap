@@ -6,6 +6,7 @@ import HomeContent from "@/components/sections/HomeContent";
 import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary } from "@/lib/dictionaries";
 import { ORGANIZATION, SITE_NAME, SITE_URL } from "@/lib/site";
+import { buildPageAlternates } from "@/lib/seo";
 import { Metadata } from "next";
 
 interface HomeProps {
@@ -17,21 +18,14 @@ export async function generateMetadata({ params }: HomeProps): Promise<Metadata>
   const dict = await getDictionary(lang, "home");
   const pageTitle = dict?.meta?.title || "Wholesale Moroccan Black Soap";
   const pageDescription = dict?.meta?.description || "Authentic bulk Beldi soap";
-  const canonicalUrl = `${SITE_URL}/${lang}`;
+  const alternates = buildPageAlternates("/", lang);
+  const canonicalUrl = alternates.canonical as string;
   const isEnglishBrief = Boolean(dict?.whatIs);
 
   return {
     title: isEnglishBrief ? { absolute: pageTitle } : pageTitle,
     description: pageDescription,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        en: `${SITE_URL}/en`,
-        fr: `${SITE_URL}/fr`,
-        ar: `${SITE_URL}/ar`,
-        "x-default": `${SITE_URL}/en`,
-      },
-    },
+    alternates,
     openGraph: {
       type: "website",
       url: canonicalUrl,
@@ -60,11 +54,26 @@ export default async function Home({ params }: HomeProps) {
   const dict = await getDictionary(lang, "home");
   const isEnglishBrief = Boolean(dict?.whatIs);
 
+  const pageUrl = `${SITE_URL}/${lang}`;
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: pageUrl,
+    inLanguage: lang === "ar" ? "ar" : lang === "fr" ? "fr" : "en",
+    publisher: {
+      "@type": "Organization",
+      name: ORGANIZATION.name,
+      sameAs: ORGANIZATION.sameAs,
+    },
+  };
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Moroccan Black Soap Wholesale",
-    url: `${SITE_URL}/`,
+    url: pageUrl,
     logo: `${SITE_URL}/image/moroccan_black_soap_logo_vector.svg`,
     description:
       "Wholesale supplier of authentic Moroccan black soap (Beldi soap) sourced from Moroccan cooperatives.",
@@ -101,7 +110,13 @@ export default async function Home({ params }: HomeProps) {
 
   return (
     <main className="min-h-screen bg-white">
-      {isEnglishBrief && <JsonLd data={faqSchema ? [organizationSchema, faqSchema] : organizationSchema} />}
+      <JsonLd
+        data={
+          isEnglishBrief && faqSchema
+            ? [websiteSchema, organizationSchema, faqSchema]
+            : [websiteSchema, organizationSchema]
+        }
+      />
       <Hero dict={dict} lang={lang} />
       {isEnglishBrief ? (
         <HomeContent dict={dict} lang={lang} />

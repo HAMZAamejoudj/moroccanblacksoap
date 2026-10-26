@@ -4,6 +4,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { ORGANIZATION, SITE_NAME, SITE_URL } from '@/lib/site';
 import { getDictionary } from '@/lib/dictionaries';
 import { getLocalizedHref } from '@/lib/utils';
+import { buildPageAlternates } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -14,14 +15,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dict = await getDictionary(lang, 'bulk-order');
   const pageTitle = dict?.meta?.title || 'Bulk Moroccan Black Soap – Wholesale Beldi Soap Supplier';
   const pageDescription = dict?.meta?.description || 'Order authentic Moroccan black soap in bulk. 100% organic Beldi soap for spas, hammams, skincare brands, and private label businesses. Flexible MOQs and worldwide shipping.';
-  const canonicalUrl = `${SITE_URL}${getLocalizedHref('/bulk-order', lang)}`;
+  const alternates = buildPageAlternates('/bulk-order', lang);
+  const canonicalUrl = alternates.canonical as string;
 
   return {
     title: { absolute: pageTitle },
     description: pageDescription,
-    alternates: {
-      canonical: canonicalUrl,
-    },
+    alternates,
     openGraph: {
       type: 'website',
       url: canonicalUrl,

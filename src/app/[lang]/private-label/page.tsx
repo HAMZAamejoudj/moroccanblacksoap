@@ -4,6 +4,7 @@ import JsonLd from '@/components/seo/JsonLd';
 import { ORGANIZATION, SITE_NAME, SITE_URL } from '@/lib/site';
 import { getDictionary } from '@/lib/dictionaries';
 import { getLocalizedHref } from '@/lib/utils';
+import { buildPageAlternates } from '@/lib/seo';
 
 interface PageProps {
   params: Promise<{ lang: string }>;
@@ -14,14 +15,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const dict = await getDictionary(lang, 'private-label');
   const pageTitle = dict?.meta?.title || 'Private Label Moroccan Black Soap – Launch Your Beldi Soap Brand';
   const pageDescription = dict?.meta?.description || 'Create your own Moroccan black soap brand with certified Beldi soap. Custom labels, packaging, private label solutions, and bulk supply for skincare, spas, and cosmetic businesses.';
-  const canonicalUrl = `${SITE_URL}${getLocalizedHref('/private-label', lang)}`;
+  const alternates = buildPageAlternates('/private-label', lang);
+  const canonicalUrl = alternates.canonical as string;
 
   return {
     title: { absolute: pageTitle },
     description: pageDescription,
-    alternates: {
-      canonical: canonicalUrl,
-    },
+    alternates,
     openGraph: {
       type: 'website',
       url: canonicalUrl,

@@ -93,7 +93,8 @@ const Navbar = ({ dict, lang }: NavbarProps) => {
             }`}
           >
             <WhatsAppIcon size={18} />
-            {lang === 'ar' ? 'طلب تسعيرة' : lang === 'fr' ? 'Obtenir un Devis' : 'Get a Quote'}
+            {dict?.nav?.whatsappQuote ||
+              (lang === 'ar' ? 'طلب واتساب' : lang === 'fr' ? 'Devis WhatsApp' : 'WhatsApp quote')}
           </Link>
 
           <div className="lg:hidden flex items-center gap-2">
@@ -133,7 +134,8 @@ const Navbar = ({ dict, lang }: NavbarProps) => {
             className="inline-flex w-full items-center justify-center gap-2.5 bg-primary text-white px-6 py-4 rounded-xl text-lg font-semibold hover:bg-secondary hover:text-primary transition-all shadow-lg"
           >
             <WhatsAppIcon size={20} />
-            {lang === 'ar' ? 'طلب تسعيرة' : lang === 'fr' ? 'Obtenir un Devis' : 'Get a Quote'}
+            {dict?.nav?.whatsappQuote ||
+              (lang === 'ar' ? 'طلب واتساب' : lang === 'fr' ? 'Devis WhatsApp' : 'WhatsApp quote')}
           </Link>
         </div>
       </div>

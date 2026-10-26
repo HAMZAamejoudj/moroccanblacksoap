@@ -4,6 +4,7 @@ import { Phone, Mail, MapPin, Facebook, Instagram } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { getLocalizedHref } from '@/lib/utils';
+import { ORGANIZATION } from '@/lib/site';
 
 const footerHeadingClass =
   'text-lg font-serif font-bold text-primary uppercase tracking-[0.2em]';
@@ -38,27 +39,27 @@ const Footer = ({ dict, lang }: FooterProps) => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.facebook.com/moroccanorganica/"
+                href={ORGANIZATION.sameAs[0]}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="me noopener noreferrer"
                 className="p-2 bg-stone-100 rounded-full text-stone-600 hover:text-white hover:bg-[#1877F2] transition-all duration-300 shadow-sm"
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
               </a>
               <a
-                href="https://www.instagram.com/moroccanorganic/"
+                href={ORGANIZATION.sameAs[1]}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="me noopener noreferrer"
                 className="p-2 bg-stone-100 rounded-full text-stone-600 hover:text-white hover:bg-[#E1306C] transition-all duration-300 shadow-sm"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="https://www.tiktok.com/@moroccanbeauty_shop"
+                href={ORGANIZATION.sameAs[2]}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="me noopener noreferrer"
                 className="p-2 bg-stone-100 rounded-full text-stone-600 hover:text-white hover:bg-black transition-all duration-300 shadow-sm"
                 aria-label="TikTok"
               >
@@ -67,6 +68,36 @@ const Footer = ({ dict, lang }: FooterProps) => {
                 </svg>
               </a>
             </div>
+            <ul className="text-sm space-y-2 text-stone-600">
+              <li>
+                <a
+                  href={ORGANIZATION.sameAs[0]}
+                  target="_blank"
+                  rel="me noopener noreferrer"
+                  className="hover:text-secondary transition-colors"
+                >
+                  Moroccan Organica on Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href={ORGANIZATION.sameAs[1]}
+                  target="_blank"
+                  rel="me noopener noreferrer"
+                  className="hover:text-secondary transition-colors"
+                >
+                  @moroccanorganic on Instagram
+                </a>
+              </li>
+              <li>
+                <Link
+                  href={getLocalizedHref('/moroccan-black-soap-wholesale', lang)}
+                  className="hover:text-secondary transition-colors"
+                >
+                  Wholesale buying guide
+                </Link>
+              </li>
+            </ul>
           </div>
 
           {/* Payments */}

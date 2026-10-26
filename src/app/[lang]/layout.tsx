@@ -29,8 +29,7 @@ interface LayoutProps {
 
 export async function generateMetadata({ params }: LayoutProps): Promise<Metadata> {
   const { lang } = await params;
-  const canonicalUrl = `${SITE_URL}/${lang}`;
-  
+
   return {
     metadataBase: new URL(SITE_URL),
     title: {
@@ -39,18 +38,8 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
     },
     description:
       "Discover authentic Moroccan black soap wholesale. 100% natural Beldi soap for skincare, hammam rituals, and private label brands. Certified, ethical, and export-ready.",
-    alternates: {
-      canonical: canonicalUrl,
-      languages: {
-        en: `${SITE_URL}/en`,
-        fr: `${SITE_URL}/fr`,
-        ar: `${SITE_URL}/ar`,
-        "x-default": `${SITE_URL}/en`,
-      },
-    },
     openGraph: {
       type: "website",
-      url: canonicalUrl,
       siteName: SITE_NAME,
       locale: lang === "ar" ? "ar_MA" : lang === "fr" ? "fr_MA" : "en_US",
     },

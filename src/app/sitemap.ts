@@ -1,57 +1,28 @@
 import type { MetadataRoute } from 'next';
-import { SITE_URL } from '@/lib/site';
+import { products } from '@/lib/products';
+import { sitemapPaths } from '@/lib/seo';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: SITE_URL,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1,
-    },
-    {
-      url: `${SITE_URL}/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/benefits`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/moroccan-black-soap-wholesale`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/private-label`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/faq`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/bulk-order`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
+  const staticPaths = [
+    { path: '/', priority: 1, changeFrequency: 'weekly' as const },
+    { path: '/about', priority: 0.85, changeFrequency: 'monthly' as const },
+    { path: '/benefits', priority: 0.85, changeFrequency: 'monthly' as const },
+    { path: '/bulk-order', priority: 0.9, changeFrequency: 'weekly' as const },
+    { path: '/private-label', priority: 0.9, changeFrequency: 'monthly' as const },
+    { path: '/moroccan-black-soap-wholesale', priority: 0.85, changeFrequency: 'monthly' as const },
+    { path: '/faq', priority: 0.75, changeFrequency: 'weekly' as const },
+    { path: '/contact', priority: 0.85, changeFrequency: 'monthly' as const },
   ];
+
+  const pages = staticPaths.flatMap(({ path, priority, changeFrequency }) =>
+    sitemapPaths(path, priority, changeFrequency),
+  );
+
+  const productPages = products.flatMap((product) =>
+    sitemapPaths(`/products/${product.slug}`, 0.8, 'monthly'),
+  );
+
+  return [...pages, ...productPages];
 }
