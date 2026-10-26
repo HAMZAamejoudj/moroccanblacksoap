@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "benefits": "Bienfaits",
+    "bulkOrder": "Commande en Gros",
+    "privateLabel": "Marque Privée",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": {
+      "description": "Votre partenaire grossiste de confiance pour le savon noir marocain (Beldi) authentique et biologique. Éthique, certifié et prêt pour l'exportation mondiale."
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "address": "Lot 377 N°3/6 sidi ghanem Zone industrielle, Marrakech"
+    },
+    "rights": "© 2026 Moroccan Black Soap Wholesale. Tous droits réservés."
+  }
+}

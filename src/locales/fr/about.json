@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "title": "À Propos de Moroccan Black Soap – Fournisseur de Savon Beldi Bio",
+    "description": "Découvrez Moroccan Black Soap, fournisseur de savon noir Beldi authentique du Maroc pour le commerce de gros, la marque privée, les spas et les marques de cosmétiques."
+  },
+  "hero": {
+    "label": "Notre Entreprise",
+    "title": "À Propos du Savon Noir Marocain",
+    "description": "Bienvenue chez Moroccan Black Soap, votre source de confiance pour le savon noir marocain authentique, également connu sous le nom de savon Beldi, fourni directement du Maroc pour les marques de beauté, les spas, les hammams et les entreprises de marque privée.",
+    "p1": "Notre entreprise a été créée pour apporter l'un des trésors les plus traditionnels du soin de la peau du Maroc sur les marchés internationaux avec une qualité professionnelle, un approvisionnement fiable et une documentation de produit claire. Le savon noir marocain est utilisé depuis des générations dans les rituels traditionnels du hammam, où il est apprécié pour son nettoyage en profondeur, son exfoliation douce et sa capacité à laisser la peau douce, lisse et rafraîchie.",
+    "p2": "Aujourd'hui, la demande mondiale pour les produits naturels de soin de la peau ne cesse de croître. Les clients recherchent des produits simples, traditionnels et d'origine végétale avec une véritable histoire. C'est là que le savon noir marocain se distingue. Il ne s'agit pas seulement d'un produit cosmétique; il fait partie de la culture de beauté marocaine, du patrimoine du hammam et des traditions de soins naturels du corps.",
+    "mission": "Sur moroccanblacksoap.com, notre mission est de fournir du véritable savon Beldi marocain de manière professionnelle: approvisionnement propre, texture constante, disponibilité en vrac, options de marque privée et assistance à l'exportation.",
+    "badge": "Qualité Supérieure",
+    "badgeTitle": "Pâte de Beldi Authentique",
+    "badgeDesc": "Élaboré de manière éthique et direct du Maroc"
+  },
+  "story": {
+    "label": "Patrimoine & Culture",
+    "title": "Notre Histoire",
+    "p1": "Le savon noir marocain a toujours été lié à l'expérience du hammam. Au Maroc, le hammam est plus qu'un simple lieu de lavage. C'est un rituel de purification, de relaxation et de renouveau. Le savon Beldi est traditionnellement appliqué sur une peau chaude et humide avant l'exfoliation avec un gant de Kessa. Cette routine aide à éliminer les cellules mortes de la peau et lui donne un aspect plus propre et plus lisse.",
+    "p2": "Nous avons lancé Moroccan Black Soap pour faciliter l'accès à ce produit traditionnel pour les acheteurs internationaux. De nombreuses entreprises souhaitent s'approvisionner en savon noir marocain, mais elles sont confrontées à une qualité incohérente, des fournisseurs peu clairs, une documentation insuffisante et des options d'emballage incertaines.",
+    "p3": "Notre rôle est de résoudre ce problème. Nous connectons la production marocaine authentique avec les besoins des entreprises modernes de soins de la peau. Que vous ayez besoin de savon noir marocain en vrac, de savon Beldi en marque privée ou d'approvisionnement en gros pour les spas et les hammams, nous offrons une solution d'approvisionnement simple et fiable.",
+    "badge": "Base 100% Huile d'Olive"
+  },
+  "supply": {
+    "label": "Gamme de Produits",
+    "title": "Ce Que Nous Fournissons",
+    "desc": "Nous sommes spécialisés dans la vente en gros de savon noir marocain authentique pour un usage professionnel et la revente. Notre gamme de produits peut soutenir différents modèles d'affaires, des petites marques de beauté aux grands distributeurs.",
+    "intro": "Nos Options d'Approvisionnement Incluent :",
+    "items": [
+      "Savon noir marocain traditionnel",
+      "Savon Beldi de style biologique",
+      "Savon noir à base d'olive",
+      "Savon noir à l'huile d'argan",
+      "Savon noir à l'eucalyptus",
+      "Savon noir à la rose ou parfum naturel",
+      "Savon noir de hammam pour spas",
+      "Savon noir marocain en marque privée",
+      "Savon noir en vrac pour fabricants de cosmétiques",
+      "Pots prêts pour la vente au détail et emballages personnalisés"
+    ],
+    "outro": "Nous pouvons fournir le savon sous différents formats en fonction des besoins de votre entreprise. Certains clients préfèrent de grands contenants en vrac pour l'usage en spa, tandis que d'autres ont besoin de pots de vente au détail élégants avec leur propre étiquette de marque. Nous soutenons les deux.",
+    "card1": {
+      "badge": "Populaire",
+      "title": "Beldi Infusé à l'Huile d'Argan",
+      "desc": "Enrichi en huile d'argan cosmétique pure pour une hydratation profonde et une nutrition de la peau."
+    },
+    "card2": {
+      "badge": "Traditionnel",
+      "title": "Mélange Exfoliant à l'Eucalyptus",
+      "desc": "Infusé à l'huile d'eucalyptus globulus pour un rituel de hammam rafraîchissant et purifiant en aromathérapie."
+    }
+  },
+  "why": {
+    "label": "Valeur du Produit",
+    "title": "Pourquoi le Savon Noir Marocain ?",
+    "p1": "Le savon noir marocain est populaire parce qu'il est simple, efficace et profondément lié aux rituels de beauté traditionnels. Il est généralement mou, semblable à une pâte, de couleur marron foncé à noir, et fabriqué avec des ingrédients à base d'olive.",
+    "p2": "Pour les marques de soins et les spas, il offre une histoire de produit forte et des avantages pratiques. Il peut être utilisé comme nettoyant corporel, traitement de pré-exfoliation, produit de hammam, produit de spa ou article de soin corporel naturel.",
+    "listTitle": "Alignement sur le Marché :",
+    "listIntro": "Les entreprises choisissent le savon noir marocain parce qu'il s'aligne parfaitement avec les tendances du marché mondial moderne :",
+    "listItems": [
+      { "title": "Soins Naturels de la Peau", "desc": "Sans produits synthétiques agressifs, sans parabènes ni détergents." },
+      { "title": "Rituels de Beauté Traditionnels", "desc": "Séduit les consommateurs à la recherche de secrets historiques de soins de la peau." },
+      { "title": "Soins de Hammam & Spa", "desc": "Indispensable pour les centres de bien-être et de massage authentiques." },
+      { "title": "Soins Corporels Minimalistes", "desc": "Liste d'ingrédients simple et pure pour une beauté saine." },
+      { "title": "Cosmétiques à Base d'Olive", "desc": "Naturellement riche en vitamine E antioxydante et en acides gras." },
+      { "title": "Produits de Beauté Durables", "desc": "À base de plantes, biodégradables et écologiques." },
+      { "title": "Soins de la Peau en Marque Privée", "desc": "Produit unique à forte marge qui définit l'excellence de la marque." },
+      { "title": "Beauté Ethnique & Patrimoniale", "desc": "S'appuie sur le riche patrimoine marocain et l'esthétique culturelle." }
+    ],
+    "outro": "Pour les clients, il semble authentique et différent des savons ordinaires. Pour les marques, il crée une identité marocaine forte et une image de soins naturels de la peau haut de gamme."
+  },
+  "quality": {
+    "label": "Normes & Conformité",
+    "title": "Notre Approche Qualité & Export",
+    "desc": "La qualité est la pierre angulaire de nos opérations. Nous nous concentrons sur la fourniture de savon Beldi avec la bonne texture, l'aspect naturel, le parfum propre et la consistance stable pour l'exportation mondiale professionnelle.",
+    "qa": {
+      "title": "Protocoles d'Assurance Qualité",
+      "desc": "Nous garantissons un savon Beldi de qualité cosmétique professionnelle. Notre contrôle strict évite les problèmes tels qu'une texture liquide, des parfums chimiques indésirables, des emballages défectueux ou des additifs non répertoriés.",
+      "items": [
+        "Approvisionnement rigoureux auprès de producteurs marocains de confiance",
+        "Contrôle de laboratoire constant lot par lot",
+        "Options d'emballage étanches et propres de qualité alimentaire",
+        "Stockage et manipulation appropriés à température contrôlée",
+        "Fiches techniques complètes de spécification du produit pour les acheteurs",
+        "Aide à la préparation de la documentation personnalisée sur demande",
+        "Vérifications de compatibilité des emballages de marque privée avant production"
+      ],
+      "outro": "Pour les clients de gros et d'exportation, nous fournissons des détails complets sur les produits et des documents en fonction du type de commande et du marché de destination."
+    },
+    "docs": {
+      "title": "Documentation & Support à l'Exportation",
+      "desc": "Le dédouanement international nécessite une documentation professionnelle. Nous fournissons aux marques de beauté, distributeurs, spas et détaillants des documents internationaux conformes.",
+      "items": [
+        { "title": "Support COA", "desc": "Certificat d'analyse" },
+        { "title": "Fichiers FDS", "desc": "Fiche de données de sécurité" },
+        { "title": "Fiches Tech", "desc": "Informations détaillées sur les ingrédients" },
+        { "title": "Registres de Lots", "desc": "Traçabilité & durée de conservation" },
+        { "title": "Certificat d'Origine", "desc": "Certifié par la chambre de commerce marocaine" },
+        { "title": "Support Douanier", "desc": "Registres d'expédition sans tracas" },
+        { "title": "Étiquetage Conforme", "desc": "Conseils de mise en forme pour les étiquettes" },
+        { "title": "Fiches d'Ingrédients", "desc": "Divulgation complète des matières premières INCI" }
+      ],
+      "outro": "Notre soutien rend notre service adapté aux marques de cosmétiques haut de gamme, aux distributeurs et aux groupes hôteliers mondiaux exigeant des registres de conformité stricts."
+    }
+  },
+  "partnership": {
+    "label": "Partenariats B2B",
+    "title": "Options d'Approvisionnement & de Branding",
+    "desc": "Nous offrons des parcours flexibles pour les comptes d'entreprises, que vous souhaitiez distribuer notre savon en vrac haut de gamme ou développer votre propre ligne de cosmétiques personnalisée.",
+    "card1": {
+      "badge": "Vente en Gros",
+      "title": "Savon Noir Marocain en Gros",
+      "desc": "Nous fournissons du savon noir marocain en gros pour les entreprises qui ont besoin de stocks réguliers, de grandes quantités ou de tarifs de gros. Notre service de gros est conçu pour être flexible. Vous pouvez commander du savon noir en vrac, en emballage de détail ou en emballage de marque privée.",
+      "listTitle": "Comptes de Gros Idéaux :",
+      "listItems": [
+        "Hammams Traditionnels",
+        "Chaînes de Spas & Bien-être",
+        "Boutiques de Cosmétiques Naturels",
+        "Boutiques de Soins en Ligne",
+        "Distributeurs de Soins de la Peau",
+        "Groupes d'Équipements Hôteliers",
+        "Réseaux de Détail Biologiques",
+        "Maisons d'Importation Cosmétique"
+      ],
+      "btn": "Demander la Brochure de Gros"
+    },
+    "card2": {
+      "badge": "Branding",
+      "title": "Savon Beldi en Marque Privée",
+      "desc": "Lancez votre propre marque de cosmétiques marocains grâce à notre service de savon noir marocain en marque privée. Nous gérons l'approvisionnement du produit, l'emballage et le soutien à la production, pendant que vous vous concentrez sur votre marque, votre marketing et vos clients.",
+      "listTitle": "Options de Personnalisation :",
+      "listItems": [
+        "Votre logo sur le pot",
+        "Autocollants et étiquettes sur mesure",
+        "Sélection de plusieurs tailles de pots",
+        "Boîtes de vente au détail de luxe personnalisées",
+        "Reconditionnement du vrac au détail",
+        "Personnalisation du parfum ou de l'huile",
+        "Kits de coffrets cadeaux de hammam",
+        "Collections de spa assorties"
+      ],
+      "btn": "Consulter Nos Experts"
+    }
+  },
+  "serve": {
+    "label": "Clients",
+    "title": "Qui Nous Servons",
+    "desc": "Nos clients viennent de différents secteurs de l'industrie de la beauté et du bien-être. Nous travaillons avec des entreprises qui veulent des produits marocains authentiques et un approvisionnement fiable.",
+    "items": [
+      "Marques de Beauté",
+      "Propriétaires de Spas & Hammams",
+      "Grossistes en Cosmétiques",
+      "Boutiques Biologiques",
+      "Détaillants en Ligne",
+      "Marques de Distributeurs",
+      "Groupes de Bien-être Hôteliers",
+      "Importateurs & Distributeurs",
+      "Entrepreneurs de la Cosmétique"
+    ],
+    "outro": "Que vous testiez votre premier produit de savon noir marocain ou que vous recherchiez de grandes quantités pour la distribution, nous pouvons répondre à vos besoins.",
+    "why": {
+      "label": "Partenariat",
+      "title": "Pourquoi Choisir Notre Savon Noir ?",
+      "desc": "Choisir le bon fournisseur est important. Vos clients attendent un produit qui a l'air authentique, qui offre une sensation professionnelle et qui procure une véritable expérience de soin de la peau marocaine.",
+      "items": [
+        "Savon noir marocain authentique provenant de coopératives locales",
+        "Formats d'emballage flexibles pour le gros, le vrac et les fûts bruts",
+        "Branding personnalisé de marque privée, logos et pots dédiés",
+        "Configurations d'emballage étanches adaptées au fret aérien/maritime",
+        "Vérification de la conformité des documents d'exportation (COA, FDS, douanes)",
+        "Canaux de communication directs et réponses rapides pour les devis en vrac",
+        "Assistance professionnelle adaptée aux détaillants mondiaux et chaînes de spas"
+      ],
+      "outro": "Nous ne faisons pas que fournir du savon. Nous aidons les marques à faire découvrir un rituel de beauté marocain traditionnel à leurs clients du monde entier."
+    }
+  },
+  "values": {
+    "label": "Valeurs",
+    "title": "Notre Engagement",
+    "desc": "Chez Moroccan Black Soap, nous pensons que les produits de beauté marocains authentiques doivent être fournis avec honnêteté, constance et respect de la tradition.",
+    "items": [
+      {
+        "title": "Authenticité",
+        "text": "Nous nous concentrons sur le savon noir marocain authentique inspiré par l'utilisation traditionnelle du hammam."
+      },
+      {
+        "title": "Qualité",
+        "text": "Nous travaillons pour maintenir une texture, un aspect, un emballage et une cohérence de lot stables."
+      },
+      {
+        "title": "Transparence",
+        "text": "We provide clear product information and available documents for professional buyers."
+      },
+      {
+        "title": "Flexibilité",
+        "text": "Nous soutenons les commandes en vrac, la vente en gros, les emballages de détail et les projets de marque privée."
+      },
+      {
+        "title": "Approvisionnement Mondial",
+        "text": "Nous aidons nos clients internationaux à s'approvisionner en savon noir marocain avec un soutien à l'exportation."
+      }
+    ]
+  },
+  "cta": {
+    "label": "Contactez-nous",
+    "title": "Travaillez Avec Nous",
+    "p1": "Si vous êtes à la recherche d'un fournisseur de savon noir marocain de confiance, nous sommes prêts à vous aider. Que vous ayez besoin de stocks de gros, de savon Beldi en vrac ou d'un produit de soin de la peau sous votre propre marque, notre équipe peut vous guider à travers les options de produits, d'emballage, de documentation et d'expédition.",
+    "p2": "Contactez-nous dès aujourd'hui pour demander des détails sur les produits, des échantillons, des tarifs de gros ou une assistance pour votre marque privée.",
+    "p3": "Moroccan Black Soap — savon Beldi authentique du Maroc, préparé pour les marques de beauté modernes, les spas, les hammams et les entreprises de soins cosmétiques du monde entier.",
+    "btn1": "Contactez-nous sur WhatsApp",
+    "btn2": "Envoyer une Demande par E-mail"
+  }
+}

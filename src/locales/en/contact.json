@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Contact Moroccan Black Soap Supplier – Wholesale & Private Label",
+    "description": "Get in touch with our team for authentic Moroccan black soap wholesale orders, private label quotes, free sample requests, and global logistics information."
+  },
+  "hero": {
+    "label": "B2B Inquiry",
+    "title": "Contact Our Sourcing Team",
+    "description": "Partner with the leading Moroccan black soap supplier. Request bulk catalog rates, custom formulation options, private label pricing, or samples."
+  },
+  "info": {
+    "title": "Get in Touch Directly",
+    "desc": "Whether you are a global distributor, spa owner, or online skincare brand, our B2B export representatives are available to assist you.",
+    "phoneLabel": "WhatsApp & Call",
+    "phoneDesc": "Available for quick B2B quotes (Mon-Fri, 9am - 6pm GMT)",
+    "emailLabel": "Email Inquiries",
+    "emailDesc": "We respond to all professional emails within 24 hours.",
+    "addressLabel": "Production Facility",
+    "promiseTitle": "Export Standards",
+    "promises": [
+      "Worldwide air & sea freight shipping",
+      "Fast order processing (4–8 days lead time)",
+      "SDS, MSDS, & COA documents provided"
+    ]
+  },
+  "form": {
+    "title": "Send a Partnership Inquiry",
+    "successTitle": "Thank You for Reaching Out!",
+    "successDesc": "Your inquiry has been successfully sent to our wholesale export desk. One of our account managers will contact you via email or WhatsApp within the next 24 hours.",
+    "successBtn": "Send another message",
+    "nameLabel": "Full Name *",
+    "namePlaceholder": "e.g. John Doe",
+    "emailLabel": "Business Email *",
+    "emailPlaceholder": "e.g. john@yourbrand.com",
+    "phoneLabel": "Phone / WhatsApp *",
+    "phonePlaceholder": "Include country code (e.g. +1 234...)",
+    "companyLabel": "Company Name / Website",
+    "companyPlaceholder": "e.g. Luxury Spa Ltd.",
+    "serviceLabel": "Interested Service *",
+    "services": [
+      "Wholesale & Bulk Supplies (25kg+ drums)",
+      "Private Label Branding (Jars with logo)",
+      "Free Sample Order Request",
+      "Bespoke Custom Formulation",
+      "General B2B Sourcing Inquiry"
+    ],
+    "messageLabel": "Inquiry Details / Order Size *",
+    "messagePlaceholder": "Please detail your approximate quantities, destination country, package requirements, and fragrance preferences.",
+    "submitBtn": "Submit Partnership Request",
+    "submittingBtn": "Processing Sourcing Request..."
+  }
+}

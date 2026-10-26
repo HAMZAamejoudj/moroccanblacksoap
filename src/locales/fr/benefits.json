@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Bienfaits du Savon Noir Marocain – Savon Beldi Bio pour la Peau & les Cheveux",
+    "description": "Découvrez les bienfaits du savon noir marocain authentique (Beldi). Exfoliation naturelle, hydratation, détoxification et propriétés anti-âge pour la peau et les spas."
+  },
+  "hero": {
+    "label": "Science de la Peau",
+    "title": "Les Bienfaits du Savon Noir Marocain",
+    "description": "Le savon noir marocain, connu sous le nom de savon Beldi, est l'un des produits naturels de soin de la peau les plus précieux du Maroc. Composé principalement d'huile d'olive et d'olives broyées, le savon Beldi est utilisé depuis des siècles dans les rituels traditionnels du hammam pour nettoyer, exfolier et régénérer la peau.",
+    "intro": "Chez Moroccan Black Soap, nous fournissons du savon Beldi authentique et biologique pour la vente en gros, les marques privées et l'utilisation en spa. Cette page explique les nombreux avantages du savon noir marocain, pourquoi il reste le favori des amateurs de soins de la peau et comment il peut enrichir vos soins de spa et vos gammes cosmétiques.",
+    "badge": "100% Pur & Bio",
+    "badgeTitle": "Riche en Olive & Pâte d'Olive",
+    "badgeDesc": "Le secret de beauté millénaire du Maroc"
+  },
+  "exfoliation": {
+    "label": "Exfoliation Purifiante",
+    "title": "Exfoliation Naturelle & Détox",
+    "desc": "L'un des avantages les plus remarquables du savon noir marocain est son effet exfoliant doux. Appliqué sur peau humide avec un gant de Kessa lors des rituels de hammam, il aide à éliminer les cellules mortes, désincruste les pores et rend la peau plus lisse et plus douce.",
+    "listTitle": "L'utilisation régulière du savon Beldi favorise :",
+    "listItems": [
+      "Amélioration de la texture de la peau",
+      "Réduction des zones rugueuses",
+      "Peau du corps et du visage plus lisse",
+      "Préparation de la peau pour une meilleure absorption des crèmes ou huiles"
+    ],
+    "detox": {
+      "title": "Propriétés Détoxifiantes",
+      "desc": "Le savon noir marocain contient des saponines naturelles et des minéraux issus de l'olive qui aident à détoxifier la peau en éliminant les impuretés incrustées.",
+      "items": [
+        "Élimination des impuretés et de la saleté des pores",
+        "Réduction de l'excès de sébum et des points noirs",
+        "Préparation de la peau pour les soins profonds du hammam"
+      ]
+    },
+    "badge": "Renouvellement Cellulaire"
+  },
+  "hydration": {
+    "label": "Hydratation Nourrissante",
+    "title": "Hydratation Profonde & Anti-Âge",
+    "desc": "Contrairement aux savons ordinaires qui peuvent dessécher la peau, le savon noir marocain est riche en huile d'olive non saponifiée, ce qui procure une hydratation en profondeur. Sa teneur en huile nourrit la peau tout en la nettoyant, la laissant douce, souple et éclatante.",
+    "col1": {
+      "title": "Bienfaits Hydratation",
+      "items": [
+        "Réduction de la sécheresse et de la desquamation",
+        "Adoucissement des coudes, genoux et zones rugueuses",
+        "Élasticté et douceur renforcées",
+        "Convient à tous les types de peaux, y compris sensibles"
+      ]
+    },
+    "col2": {
+      "title": "Anti-Âge & Régénération",
+      "items": [
+        "Sa richesse en vitamine E lutte contre les effets du vieillissement",
+        "Estompe l'apparence des ridules",
+        "Améliore l'éclat et la luminosité de la peau",
+        "Régénère les peaux ternes ou fatiguées"
+      ]
+    },
+    "outro": "L'utilisation du savon noir marocain avant l'application de crèmes ou d'huiles amplifie l'absorption des principes actifs, améliorant ainsi considérablement leurs effets anti-âge.",
+    "badge": "Riche en Antioxydants",
+    "badgeDesc": "Teneur naturelle élevée en Vit E & acides oléiques"
+  },
+  "specialized": {
+    "label": "Soin Spécialisé",
+    "title": "Soins des Cheveux, du Cuir Chevelu & des Ongles",
+    "desc": "Bien que principalement utilisé pour le corps, le savon noir marocain peut également soutenir la santé des cheveux et du cuir chevelu. Ses huiles naturelles nourrissent les cuticules et renforcent les ongles cassants.",
+    "hair": {
+      "title": "Santé des Cheveux & du Cuir Chevelu",
+      "items": [
+        "Nettoie le cuir chevelu naturellement sans produits chimiques",
+        "Élimine les impuretés et l'excès de sébum",
+        "Favorise des cheveux plus doux et plus brillants suivis d'huiles d'Argan ou de Figue de Barbarie"
+      ]
+    },
+    "nail": {
+      "title": "Soin des Ongles & Cuticules",
+      "items": [
+        "Nourrit les cuticules et fortifie les ongles cassants",
+        "Adoucit les cuticules rugueuses pour une préparation douce de la manucure",
+        "Idéal pour les soins professionnels de manucure et pédicure en spa"
+      ]
+    }
+  },
+  "skinTypes": {
+    "label": "Efficacité Universelle",
+    "title": "Convient à Tous les Types de Peau",
+    "desc": "Le savon noir marocain est doux mais très efficace, s'adaptant à différents états de peau sans perturber la barrière lipidique naturelle.",
+    "items": [
+      { "type": "Peau Grasse", "text": "Élimine l'excès de sébum, purifie les pores et réduit les points noirs sans dessécher." },
+      { "type": "Peau Sèche", "text": "Apporte à la peau les acides gras essentiels naturels de l'olive pour maintenir l'hydratation." },
+      { "type": "Peau Sensible", "text": "Formulation pure sans parabène, détergents synthétiques, parfums ni agents moussants." },
+      { "type": "Peau Mature", "text": "Les antioxydants et la vitamine E aident à soutenir la fermeté de la peau et son éclat naturel." }
+    ],
+    "outro": "Sa polyvalence en fait un ingrédient de choix pour les marques de cosmétiques en gros, les spas de luxe et les projets de marque privée dans le monde entier."
+  },
+  "privateLabel": {
+    "label": "Opportunités de Vente en Gros B2B",
+    "title": "Marque Privée & Approvisionnement Éthique",
+    "desc": "Associez-vous à un fournisseur qui valorise l'efficacité des produits bruts et soutient les coopératives marocaines locales.",
+    "card1": {
+      "badge": "Branding",
+      "title": "Avantages de la Marque Privée",
+      "desc": "Le savon Beldi marocain est idéal pour les marques privées qui souhaitent ajouter un produit de spa historique à leur catalogue.",
+      "items": [
+        { "title": "Branding Facile", "desc": "Appliquez vos propres designs, logos et coffrets de luxe." },
+        { "title": "Fourniture en Gros", "desc": "Approvisionnement en grandes quantités pour spas, hôtels et distributeurs." },
+        { "title": "Formulations Sur Mesure", "desc": "Possibilité d'infuser à l'Argan, à l'Eucalyptus, au Nila ou à la Rose." },
+        { "title": "Logistique d'Exportation", "desc": "Fourni avec COA, FDS, MSDS et documents douaniers." }
+      ],
+      "btn": "Consulter les Options d'Emballage"
+    },
+    "card2": {
+      "badge": "Éthique",
+      "title": "Durabilité & Coopératives",
+      "desc": "L'authentique savon noir marocain soutient un approvisionnement éthique. Nous travaillons en étroite collaboration avec des coopératives de femmes locales pour préserver le savoir-faire.",
+      "items": [
+        { "title": "Soutien Équitable", "desc": "Garantit des marges et salaires équitables aux femmes rurales locales." },
+        { "title": "Préservation du Patrimoine", "desc": "Préserve les méthodes ancestrales de cuisson et de préparation naturelle." },
+        { "title": "Respect de l'Environnement", "desc": "Récolte durable des olives respectueuse du climat local." },
+        { "title": "Bénéfices Communautaires Directs", "desc": "Une partie des revenus soutient directement les familles rurales." }
+      ],
+      "btn": "Découvrir Nos Coopératives"
+    }
+  },
+  "incorporate": {
+    "label": "Guide d'Application",
+    "title": "Comment Utiliser le Savon Noir Marocain",
+    "steps": [
+      {
+        "title": "Usage Domestique",
+        "text": "Appliquez sur peau mouillée en mouvements circulaires avec un gant (Kessa), laissez agir quelques minutes, rincez abondamment à l'eau tiède, puis appliquez un soin hydratant ou une huile corporelle pure (comme l'huile d'Argan)."
+      },
+      {
+        "title": "Pour Spas & Hammams",
+        "text": "À intégrer dans les soins traditionnels du hammam, les enveloppements corporels et les rituels de gommage en cabine vapeur. Prépare la peau à l'absorption optimale des huiles de massage relaxantes."
+      },
+      {
+        "title": "Pour Marques Cosmétiques",
+        "text": "Formulez vos propres pots de savon Beldi. Intégrez-les dans des coffrets de spa signatures, des gammes de marque privée ou des lignes de gommage biologique."
+      }
+    ]
+  },
+  "summary": {
+    "label": "Aperçu Rapide",
+    "title": "Résumé des Bienfaits",
+    "items": [
+      { "title": "Exfoliation Naturelle", "desc": "Élimine les cellules mortes, désobstrue les pores." },
+      { "title": "Hydratation Profonde", "desc": "La richesse en huile d'olive nourrit et adoucit la peau." },
+      { "title": "Détoxifiant", "desc": "Nettoie les impuretés, les saletés et l'excès de sébum." },
+      { "title": "Anti-Âge", "desc": "Les antioxydants améliorent l'élasticité et l'aspect des ridules." },
+      { "title": "Soin Cheveux & Cuir Chevelu", "desc": "Purifie et prépare les cheveux aux soins et huiles." },
+      { "title": "Soins Ongles & Cuticules", "desc": "Renforce les ongles et assouplit les cuticules." },
+      { "title": "Tous Types de Peau", "desc": "Doux, sans produits chimiques, idéal pour peaux sensibles." },
+      { "title": "Prêt pour Gros & Marque Privée", "desc": "Volume de vrac flexible, approvisionnement éthique." },
+      { "title": "Durable & Éthique", "desc": "Soutient les coopératives de femmes marocaines locales." }
+    ]
+  },
+  "cta": {
+    "label": "Approvisionnement B2B en Gros",
+    "title": "Obtenez du Savon Noir Marocain pour Votre Marque ou Spa",
+    "desc": "Que vous soyez un spa, une marque de cosmétiques ou un détaillant, le savon noir marocain offre un produit naturel et riche en patrimoine pour sublimer vos services. Contactez-nous pour obtenir des tarifs de gros, des options de marque privée ou passer commande d'échantillons."
+  }
+}

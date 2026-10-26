@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "benefits": "Benefits",
+    "bulkOrder": "Bulk Order",
+    "privateLabel": "Private Label",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": {
+      "description": "Your trusted wholesale partner for authentic, organic Moroccan black Beldi soap. Ethically sourced, certified, and export-ready for brands, spas, and retailers worldwide."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "Lot 377 N°3/6 sidi ghanem Zone industriel, Marrakesh"
+    },
+    "rights": "© 2026 Moroccan Black Soap Wholesale. All rights reserved."
+  }
+}

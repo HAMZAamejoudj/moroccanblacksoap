@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "title": "Marque Privée de Savon Noir Marocain – Créez Votre Marque de Savon Beldi",
+    "description": "Créez votre propre marque de savon noir marocain avec un savon Beldi certifié. Étiquettes personnalisées, emballage, solutions clés en main et vente en gros."
+  },
+  "hero": {
+    "label": "Marquage Personnalisé",
+    "title": "Lancez Votre Marque Privée de Savon Noir Marocain",
+    "description": "Chez Moroccan Black Soap, nous fournissons du savon Beldi authentique pour les entreprises souhaitant créer une marque privée de soins de la peau ou de spa.",
+    "p2": "Le savon noir marocain, réputé pour ses propriétés exfoliantes, hydratantes et détoxifiantes naturelles, est idéal pour les gammes de cosmétiques, les soins de hammam et les produits de beauté de luxe. Cette solution permet aux startups, salons, détaillants et marques de cosmétiques de lancer une gamme de savon noir sans investir dans des installations de fabrication.",
+    "advantages": [
+      "Appliquez votre logo et votre image de marque",
+      "Personnalisez l'emballage et la taille des pots",
+      "Accédez à un approvisionnement en vrac avec MOQ flexible",
+      "Savon certifié biologique avec documentation complète",
+      "Support d'exportation pour la logistique mondiale"
+    ],
+    "badge": "Solutions Marque Privée",
+    "badgeTitle": "Pots de Marque Personnalisés",
+    "badgeDesc": "Démarrez avec des volumes MOQ flexibles et bas"
+  },
+  "why": {
+    "label": "Proposition de Valeur",
+    "title": "Pourquoi Choisir la Marque Privée ?",
+    "desc": "Le savon Beldi est mondialement reconnu pour son efficacité et son patrimoine culturel. En le vendant sous votre propre marque, vous bénéficiez d'un produit à fort potentiel de storytelling et d'un positionnement naturel et propre.",
+    "p2": "L'intégration du savon noir marocain dans votre gamme de produits renforce la valeur de votre marque, séduit les consommateurs écoresponsables et permet de raconter l'histoire authentique d'un soin ancestral.",
+    "items": [
+      { "title": "Authenticité", "text": "Origine marocaine garantie, issue de coopératives locales de manière éthique." },
+      { "title": "Attrait Premium", "text": "Un produit rituel de hammam traditionnel avec des ingrédients 100% naturels." },
+      { "title": "Santé & Beauté", "text": "Bienfaits prouvés en exfoliation, hydratation et effets anti-âge." },
+      { "title": "Confiance Client", "text": "Produit certifié, traçable et fabriqué de manière éthique." }
+    ]
+  },
+  "process": {
+    "label": "Approvisionnement Étape par Étape",
+    "title": "Notre Processus de Marque Privée",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Choisir Votre Produit",
+        "text": "Sélectionnez le savon Beldi pur ou demandez une formule sur mesure infusée d'huile d'Argan, d'huiles essentielles ou de plantes."
+      },
+      {
+        "step": "02",
+        "title": "Concevoir Votre Marque",
+        "text": "Soumettez votre logo, charte graphique et concept d'étiquette. Notre équipe de design peut vous assister dans la création des visuels."
+      },
+      {
+        "step": "03",
+        "title": "Valider les Échantillons",
+        "text": "Nous vous envoyons un échantillon physique personnalisé pour approbation. Des ajustements de formule ou d'emballage sont possibles."
+      },
+      {
+        "step": "04",
+        "title": "Production & Expédition",
+        "text": "Après validation, nous lançons la production, contrôlons la qualité de chaque lot et préparons l'envoi avec les certificats d'exportation."
+      }
+    ]
+  },
+  "products": {
+    "label": "Catalogue Produits",
+    "title": "Options de Produits en Marque Privée",
+    "items": [
+      {
+        "title": "Savon Beldi Classique",
+        "subtitle": "Pur savon noir à base d'huile d'olive",
+        "desc": "La formule traditionnelle sans additifs. Idéal pour les rituels de hammam purs et un positionnement naturel et classique.",
+        "sizeLabel": "Tailles : 250g, 500g, 1kg",
+        "moqLabel": "MOQ : 50 unités",
+        "timeLabel": "Délai : 4–8 jours",
+        "pkgLabel": "Emballage : Pots / Tubs",
+        "btn": "Demander un Tarif"
+      },
+      {
+        "title": "Savon Beldi de Luxe à l'Argan",
+        "subtitle": "Avec Huile d'Argan Bio Pressée à Froid",
+        "desc": "Associe les propriétés exfoliantes profondes du savon Beldi au pouvoir hydratant intense de l'huile d'argan marocaine pure.",
+        "sizeLabel": "Tailles : 250g, 500g",
+        "moqLabel": "MOQ : 50 unités",
+        "timeLabel": "Délai : 4–8 jours",
+        "pkgLabel": "Emballage : Verre ou Pots",
+        "btn": "Demander un Tarif"
+      },
+      {
+        "title": "Savon Beldi Infusé aux Herbes",
+        "subtitle": "Eucalyptus, Rose ou Camomille",
+        "desc": "Mélange d'extraits botaniques naturels et d'huiles d'aromathérapie. Parfait pour les gammes bien-être de luxe et soins de spa.",
+        "sizeLabel": "Tailles : Pots sur mesure",
+        "moqLabel": "MOQ : 50 unités",
+        "timeLabel": "Délai : 4–8 jours",
+        "pkgLabel": "Emballage : Éco-conçu",
+        "btn": "Demander un Tarif"
+      },
+      {
+        "title": "Vrac Professionnel Spa & Hammam",
+        "subtitle": "Grands contenants pour cabines et soins",
+        "desc": "Contenants de grande capacité conçus spécifiquement pour une utilisation fréquente en hammams, bains thermaux et spas.",
+        "sizeLabel": "Tailles : 2kg, 5kg, 10kg",
+        "moqLabel": "MOQ : 50 unités",
+        "timeLabel": "Délai : 4–8 jours",
+        "pkgLabel": "Emballage : Seaux PEHD",
+        "btn": "Demander un Tarif"
+      },
+      {
+        "title": "Marque Blanche – Lancement Rapide",
+        "subtitle": "Apposez votre logo sur le stock existant",
+        "desc": "Appliquez vos étiquettes personnalisées directement sur nos pots standards pré-packagés de haute qualité. Idéal pour tester le marché.",
+        "sizeLabel": "Tailles : Pots standards",
+        "moqLabel": "MOQ : 50 unités",
+        "timeLabel": "Délai : 4–8 jours",
+        "pkgLabel": "Idéal pour : Startups",
+        "btn": "Demander un Tarif"
+      },
+      {
+        "title": "Marque Privée Complète – Premium",
+        "subtitle": "Formulation et packaging sur mesure",
+        "desc": "Formulation entièrement personnalisée, parfums uniques, pots sur mesure et boîtes d'emballage dédiées pour les marques établies.",
+        "sizeLabel": "Formule : Sur-mesure",
+        "moqLabel": "MOQ : 200-500 unités",
+        "timeLabel": "Délai : 1–2 semaines",
+        "pkgLabel": "Idéal pour : Marques Premium",
+        "btn": "Lancer l'Approvisionnement"
+      }
+    ]
+  },
+  "trust": {
+    "label": "Garanties B2B",
+    "title": "Pourquoi les Marques Nous Font Confiance",
+    "desc": "Nous combinons les méthodes traditionnelles de récolte avec des processus modernes d'exportation pour garantir des soins conformes et haut de gamme.",
+    "items": [
+      {
+        "title": "Authenticité Garantie",
+        "desc": "Des partenariats directs avec des coopératives marocaines pour garantir un savon Beldi authentique."
+      },
+      {
+        "title": "Certifié Biologique",
+        "desc": "Support de certification disponible pour les matières premières ECOCERT et USDA Organic."
+      },
+      {
+        "title": "MOQ Flexible",
+        "desc": "Démarrez petit avec seulement 50 unités et développez votre marque progressivement."
+      },
+      {
+        "title": "Emballages Personnalisés",
+        "desc": "Nombreuses options de pots, seaux ou boîtes cartonnées de luxe adaptées à votre marché."
+      },
+      {
+        "title": "Logistique d'Exportation",
+        "desc": "Certificats COA, FDS, MSDS et documents douaniers fournis pour chaque commande."
+      },
+      {
+        "title": "Expertise en Marque Privée",
+        "desc": "Accompagnement des créateurs de marques et e-commerçants de cosmétiques dans le monde entier."
+      }
+    ]
+  },
+  "target": {
+    "label": "Marché Cible",
+    "title": "Avec Qui Nous Collaborons",
+    "desc": "Nos clients en marque privée gèrent différents types d'activités dans le domaine de la beauté et du bien-être :",
+    "partners": [
+      { "label": "Spas & Centres de Bien-être" },
+      { "label": "Startups Cosmétiques" },
+      { "label": "E-commerçants & Boutiques" },
+      { "label": "Boutiques et Concepts Stores" },
+      { "label": "Box Beauté Mensuelles" },
+      { "label": "Groupes Hôteliers de Luxe" }
+    ],
+    "exportTitle": "Vente en Gros & Export Mondial",
+    "exportDesc": "Pour les clients cherchant des expéditions de gros, nous proposons des tarifs transparents, un emballage optimisé pour le fret maritime et aérien, ainsi qu'un accompagnement douanier complet. Votre savon arrive ainsi en toute sécurité et de façon professionnelle partout dans le monde."
+  },
+  "summary": {
+    "label": "Résumé",
+    "title": "Avantages du Savon Beldi en Marque Privée",
+    "items": [
+      {
+        "title": "Authenticité",
+        "desc": "Véritable savon Beldi marocain élaboré selon les protocoles de préparation traditionnels."
+      },
+      {
+        "title": "Attrait Premium",
+        "desc": "Ajoute une valeur esthétique élevée et une histoire exotique à votre gamme de soins."
+      },
+      {
+        "title": "Confiance Client",
+        "desc": "Matières premières certifiées, traçables et biologiques."
+      },
+      {
+        "title": "Commandes Flexibles",
+        "desc": "Faibles volumes de départ (50 unités) ou options d'expédition à grande échelle."
+      },
+      {
+        "title": "Entièrement Personnalisable",
+        "desc": "Formules sur mesure, parfums, conceptions d'étiquettes et packagings variés."
+      },
+      {
+        "title": "Portée Mondiale",
+        "desc": "Documents prêts pour l'exportation afin de garantir un dédouanement fluide."
+      },
+      {
+        "title": "Durabilité",
+        "desc": "Soutient directement les coopératives de femmes marocaines et une récolte respectueuse."
+      }
+    ]
+  },
+  "cta": {
+    "label": "Création de Marque",
+    "title": "Lancez Votre Propre Gamme Dès Aujourd'hui",
+    "desc": "Prêt à créer vos produits personnalisés à base de savon noir marocain ? Contactez-nous pour commander des échantillons, en savoir plus sur les formulations et obtenir nos tarifs de marque privée.",
+    "btn1": "Nous Contacter sur WhatsApp",
+    "btn2": "Envoyer une Demande par Email"
+  }
+}

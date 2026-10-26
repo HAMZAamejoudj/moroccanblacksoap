@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "title": "Achat de Savon Noir Marocain en Vrac – Fournisseur Grossiste de Savon Beldi",
+    "description": "Commandez du savon noir marocain authentique en vrac. Savon Beldi 100% bio pour spas, hammams, marques de cosmétiques et marques distributeurs."
+  },
+  "hero": {
+    "label": "Vente en Gros B2B",
+    "title": "Commandes en Vrac – Savon Noir Marocain Grossiste",
+    "description": "Le savon noir marocain, également connu sous le nom de savon Beldi, est un produit de soin traditionnel marocain réputé pour ses propriétés exfoliantes, hydratantes et détoxifiantes.",
+    "p1": "Chez Moroccan Black Soap, nous fournissons du savon Beldi authentique et 100% naturel en vrac aux marques cosmétiques, spas, centres de bien-être, détaillants et marques distributeurs dans le monde entier. Que vous ayez besoin de petites commandes pour des tests ou de grands volumes pour la distribution de spa, nos options de gros garantissent une qualité constante et un approvisionnement fiable.",
+    "btn1": "Demander un Devis Vrac",
+    "btn2": "Consulter les Tarifs",
+    "badge": "Emballage Prêt pour l'Export",
+    "badgeTitle": "Fûts Industriels de 200 Litres",
+    "badgeDesc": "Approvisionné éthiquement auprès de coopératives marocaines locales"
+  },
+  "why": {
+    "label": "Valeur du Produit",
+    "title": "Pourquoi Choisir Notre Savon Noir ?",
+    "desc": "Le savon Beldi est naturellement riche en huile d'olive, olives broyées et minéraux naturels, ce qui le rend très efficace et prisé des marques de beauté mondiales.",
+    "items": [
+      {
+        "title": "Exfoliation",
+        "text": "Élimine en douceur les cellules mortes et nettoie en profondeur sans dessécher la peau."
+      },
+      {
+        "title": "Hydratation",
+        "text": "Sa haute concentration en huile d'olive hydrate et adoucit la peau en profondeur."
+      },
+      {
+        "title": "Détoxification",
+        "text": "Désincruste les pores et élimine les toxines et impuretés environnementales."
+      },
+      {
+        "title": "Anti-Âge",
+        "text": "Riche en vitamine E, favorisant l'élasticité de la peau et son éclat naturel."
+      },
+      {
+        "title": "Soins de Spa",
+        "text": "Idéal pour les hammams, les centres de bien-être et les rituels traditionnels de massage."
+      }
+    ]
+  },
+  "capabilities": {
+    "label": "Nos Capacités",
+    "title": "Options d'Approvisionnement en Vrac",
+    "desc": "Nous proposons des configurations d'approvisionnement en vrac flexibles pour répondre aux besoins des startups de la cosmétique, des marques en expansion et des distributeurs industriels.",
+    "tiers": [
+      { "range": "10–50 kg", "tier": "Petites Commandes", "desc": "Idéal pour les startups, les marchés tests ou les salons de beauté." },
+      { "range": "50–500 kg", "tier": "Commandes Moyennes", "desc": "Adapté aux marques cosmétiques de marque privée et commerces de détail." },
+      { "range": "500–5000 kg", "tier": "Grandes Commandes", "desc": "Approvisionnement industriel pour les grands distributeurs et fabricants de cosmétiques." }
+    ],
+    "pkgTitle": "Options d'Emballage",
+    "pkgItems": [
+      "Pots et contenants prêts pour la vente au détail (250g–1kg)",
+      "Sacs en PEHD ou jerricanes pour les spas",
+      "Cartons de 25–50 kg pour les acheteurs en gros",
+      "Emballage sur mesure pour marque privée"
+    ],
+    "leadTitle": "Origine & Délais de Livraison",
+    "leadText": "Les commandes sont traitées efficacement. Les délais sont généralement de 7 à 21 jours selon la taille et le type d'emballage.",
+    "leadSubText": "Toutes les formules sont préparées fraîchement dans notre usine de Marrakech pour garantir une durée de conservation maximale."
+  },
+  "certifications": {
+    "label": "Conformité Mondiale",
+    "title": "Certifications & Documentation",
+    "desc": "Toutes les commandes en vrac sont fournies avec une documentation technique complète pour assurer un transport international sans encombre.",
+    "items": [
+      {
+        "title": "Certificat d'Analyse (COA)",
+        "desc": "Valide la composition des matières premières, la pureté, le pH et les normes de sécurité microbiologique."
+      },
+      {
+        "title": "Fiche de Données de Sécurité (FDS)",
+        "desc": "Conforme aux normes internationales pour la manipulation, le transport et le stockage en toute sécurité."
+      },
+      {
+        "title": "Certificat d'Origine (COO)",
+        "desc": "Vérifié par la Chambre de Commerce marocaine pour faciliter le dédouanement."
+      },
+      {
+        "title": "Certification Biologique",
+        "desc": "Traçabilité des matières premières certifiées ECOCERT et USDA Organic."
+      }
+    ]
+  },
+  "pricing": {
+    "label": "Matrice des Tarifs B2B",
+    "title": "Guide des Tarifs de Gros",
+    "th1": "Quantité",
+    "th2": "Prix par kg (USD)",
+    "th3": "Emballage",
+    "rows": [
+      { "qty": "10–49 kg", "price": "6 $ – 8 $", "pkg": "Pots de détail, sacs PEHD" },
+      { "qty": "50–199 kg", "price": "5 $ – 6 $", "pkg": "Boîtes de détail, cartons industriels" },
+      { "qty": "200–999 kg", "price": "4 $ – 5 $", "pkg": "Cartons en vrac, 25–50 kg" },
+      { "qty": "1000+ kg", "price": "Sur devis", "pkg": "Emballage en vrac sur mesure" }
+    ],
+    "disclaimer": "* Les prix sont indicatifs. Contactez-nous pour des devis de gros précis, frais de port et taxes inclus."
+  },
+  "privateLabel": {
+    "label": "Solutions Clés en Main",
+    "title": "Opportunités de Marque Privée",
+    "desc": "Notre savon Beldi en vrac peut également être personnalisé pour les entreprises de marque privée souhaitant lancer leur marque sans investir dans des machines d'usine.",
+    "items": [
+      "Apposez votre logo et vos étiquettes",
+      "Emballages flexibles pour le détail et le spa",
+      "Additifs d'huiles essentielles ou d'huile d'Argan",
+      "Faibles MOQ (50–100 unités)"
+    ],
+    "btn": "Explorer les Options de Marque Privée"
+  },
+  "orderingSteps": {
+    "label": "Étapes de Commande",
+    "title": "Comment Passer une Commande en Vrac",
+    "steps": [
+      { "step": "01", "title": "Sélectionner la Formule", "desc": "Choisissez la quantité souhaitée, les parfums ajoutés et le type d'emballage." },
+      { "step": "02", "title": "Obtenir un Devis", "desc": "Contactez notre équipe B2B avec vos spécifications pour recevoir votre tarif." },
+      { "step": "03", "title": "Confirmer", "desc": "Validez les tarifs et les paramètres finaux d'expédition." },
+      { "step": "04", "title": "Production", "desc": "Nous préparons votre lot et effectuons des contrôles de qualité rigoureux." },
+      { "step": "05", "title": "Livraison", "desc": "Votre commande est expédiée avec l'ensemble de la documentation d'exportation." }
+    ]
+  },
+  "authenticity": {
+    "label": "Guide de Qualité",
+    "title": "Comment Identifier le Vrai Savon Noir Marocain",
+    "desc": "Lors de vos achats en vrac de savon Beldi, veillez à vérifier ces caractéristiques naturelles pour éviter les contrefaçons synthétiques :",
+    "items": [
+      { "title": "Texture & Couleur", "desc": "Pâte molle et gélatineuse. Les teintes varient naturellement du brun foncé et vert olive au noir." },
+      { "title": "Ingrédients Purs", "desc": "Huile d'olive saponifiée, olives noires broyées et eau. Sans aucun agent moussant synthétique." },
+      { "title": "Mise en Garde sur le Prix", "desc": "Des tarifs anormalement bas révèlent souvent l'utilisation d'additifs chimiques ou de bases diluées." },
+      { "title": "Emballage Étanche", "desc": "Nécessite des contenants sombres et hermétiques pour préserver les antioxydants naturels actifs." },
+      { "title": "Coopératives Éthiques", "desc": "L'achat direct soutient les coopératives de femmes marocaines qui récoltent les olives." }
+    ]
+  },
+  "cta": {
+    "label": "Démarrer l'Approvisionnement",
+    "title": "Commencer Vos Commandes en Vrac",
+    "desc": "Prêt à vous approvisionner en savon Beldi marocain authentique en vrac ? Contactez-nous dès aujourd'hui pour demander des échantillons, des tarifs de gros ou des configurations personnalisées.",
+    "btn1": "Nous Contacter sur WhatsApp",
+    "btn2": "Formulaire de Contact"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Contactez le Fournisseur de Savon Noir Marocain – Gros & Marque Privée",
+    "description": "Contactez notre équipe pour vos commandes de savon noir marocain en gros, devis de marque privée, demandes d'échantillons et informations logistiques."
+  },
+  "hero": {
+    "label": "Demande B2B",
+    "title": "Contactez Notre Équipe d'Approvisionnement",
+    "description": "Collaborez avec le leader du savon noir marocain. Demandez les tarifs de gros, des formules personnalisées, les prix de marque privée ou des échantillons."
+  },
+  "info": {
+    "title": "Nous Contacter Directement",
+    "desc": "Que vous soyez un distributeur international, un propriétaire de spa ou une marque de cosmétiques en ligne, nos représentants export B2B sont à votre service.",
+    "phoneLabel": "WhatsApp & Téléphone",
+    "phoneDesc": "Disponible pour des devis B2B rapides (Lun-Ven, 9h - 18h GMT)",
+    "emailLabel": "Demandes par E-mail",
+    "emailDesc": "Nous répondons à tous les e-mails professionnels sous 24 heures.",
+    "addressLabel": "Unité de Production",
+    "promiseTitle": "Normes d'Exportation",
+    "promises": [
+      "Expédition mondiale par fret aérien et maritime",
+      "Traitement rapide des commandes (4 à 8 jours)",
+      "Documents SDS, MSDS et COA fournis d'office"
+    ]
+  },
+  "form": {
+    "title": "Envoyer une Demande de Partenariat",
+    "successTitle": "Merci pour Votre Demande !",
+    "successDesc": "Votre message a été transmis avec succès à notre service export. Un conseiller vous contactera par e-mail ou WhatsApp dans les prochaines 24 heures.",
+    "successBtn": "Envoyer un autre message",
+    "nameLabel": "Nom Complet *",
+    "namePlaceholder": "ex. Jean Dupont",
+    "emailLabel": "E-mail Professionnel *",
+    "emailPlaceholder": "ex. contact@votremarque.com",
+    "phoneLabel": "Téléphone / WhatsApp *",
+    "phonePlaceholder": "Inclure l'indicatif pays (ex. +33 6...)",
+    "companyLabel": "Nom de l'Entreprise / Site Web",
+    "companyPlaceholder": "ex. Spa de Luxe SARL",
+    "serviceLabel": "Service Souhaité *",
+    "services": [
+      "Approvisionnement en Gros (fûts de 25kg+)",
+      "Marque Privée (pots avec votre logo)",
+      "Demande d'Échantillons Gratuits",
+      "Formulation Personnalisée sur Mesure",
+      "Demande d'Information Générale B2B"
+    ],
+    "messageLabel": "Détails de la Demande / Volume Estimé *",
+    "messagePlaceholder": "Veuillez préciser les quantités approximatives, le pays de destination, les exigences d'emballage et les parfums souhaités.",
+    "submitBtn": "Soumettre la Demande",
+    "submittingBtn": "Traitement de Votre Demande..."
+  }
+}
