@@ -127,6 +127,7 @@ const HomeContent = ({ dict, lang }: HomeContentProps) => {
               <Link
                 key={product.slug}
                 href={getLocalizedHref(`/products/${product.slug}`, lang)}
+                aria-label={`${product.title} — wholesale product details`}
                 className="group flex flex-col rounded-3xl overflow-hidden border border-stone-100 bg-white shadow-sm hover:shadow-xl transition-shadow"
               >
                 <div className="relative aspect-[4/3] bg-white">
@@ -294,7 +295,7 @@ const HomeContent = ({ dict, lang }: HomeContentProps) => {
                 href={getLocalizedHref('/private-label', lang)}
                 className="inline-flex items-center justify-center self-start bg-primary text-white px-8 py-3.5 rounded-full font-bold hover:bg-emerald-900 transition-colors"
               >
-                Private label options
+                Explore private label services
               </Link>
             </div>
           </div>

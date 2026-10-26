@@ -1,4 +1,5 @@
-export const SITE_URL = 'https://moroccanblacksoap.com';
+/** Must match the live host (Vercel redirects apex → www). */
+export const SITE_URL = 'https://www.moroccanblacksoap.com';
 export const SITE_NAME = 'Moroccan Black Soap';
 
 export const ORGANIZATION = {

@@ -50,11 +50,21 @@ const Navbar = ({ dict, lang }: NavbarProps) => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center h-full">
         <div className="flex-1 flex justify-start">
-          <Link href={getLocalizedHref('/', lang)} className="group">
+          <Link
+            href={getLocalizedHref('/', lang)}
+            className="group"
+            aria-label={
+              lang === 'ar'
+                ? 'الصفحة الرئيسية — Moroccan Black Soap'
+                : lang === 'fr'
+                  ? 'Accueil — Moroccan Black Soap'
+                  : 'Home — Moroccan Black Soap Wholesale'
+            }
+          >
             <div className="relative h-16 w-auto aspect-[572/474] md:h-24 transition-transform duration-300 group-hover:scale-105">
               <Image
                 src="/image/moroccan_black_soap_logo_vector.svg"
-                alt="Moroccan Black Soap Wholesale Logo"
+                alt=""
                 fill
                 className={`object-contain ltr:object-left rtl:object-right ${light ? 'brightness-0 invert' : ''}`}
                 priority

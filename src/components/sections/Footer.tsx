@@ -22,16 +22,16 @@ const Footer = ({ dict, lang }: FooterProps) => {
           {/* Brand */}
           <div className="flex flex-col gap-6 lg:col-span-1">
             <div className="min-h-[5.5rem] flex items-center">
-              <Link href={getLocalizedHref('/', lang)} className="group inline-block">
-                <div className="relative h-28 w-auto aspect-[572/474] md:h-32 transition-transform duration-300 group-hover:scale-105">
+              <div className="group inline-block">
+                <div className="relative h-28 w-auto aspect-[572/474] md:h-32">
                   <Image
                     src="/image/moroccan_black_soap_logo_vector.svg"
-                    alt="Moroccan Black Soap Wholesale Logo"
+                    alt="Moroccan Black Soap Wholesale"
                     fill
                     className="object-contain ltr:object-left rtl:object-right"
                   />
                 </div>
-              </Link>
+              </div>
             </div>
             <p className="text-stone-600 leading-relaxed text-sm max-w-xs">
               {dict?.footer?.about?.description ||
