@@ -90,14 +90,30 @@ const Footer = ({ dict, lang }: FooterProps) => {
                 </a>
               </li>
               <li>
-                <Link
-                  href={getLocalizedHref('/moroccan-black-soap-wholesale', lang)}
+                <a
+                  href={ORGANIZATION.sameAs[2]}
+                  target="_blank"
+                  rel="me noopener noreferrer"
                   className="hover:text-secondary transition-colors"
                 >
-                  Wholesale buying guide
-                </Link>
+                  TikTok @moroccanbeauty_shop
+                </a>
               </li>
             </ul>
+            <nav aria-label={lang === 'ar' ? 'روابط مفيدة' : lang === 'fr' ? 'Liens utiles' : 'Helpful links'} className="text-sm space-y-2 text-stone-600 pt-2 border-t border-stone-100">
+              <Link href={getLocalizedHref('/bulk-order', lang)} className="block hover:text-secondary transition-colors">
+                {lang === 'ar' ? 'أسعار الجملة والحد الأدنى' : lang === 'fr' ? 'Tarifs & MOQ grossiste' : 'Wholesale MOQ & pricing'}
+              </Link>
+              <Link href={getLocalizedHref('/private-label', lang)} className="block hover:text-secondary transition-colors">
+                {lang === 'ar' ? 'علامة خاصة على البرطمانات' : lang === 'fr' ? 'Marque propre sur pots' : 'Custom jar branding'}
+              </Link>
+              <Link href={getLocalizedHref('/moroccan-black-soap-wholesale', lang)} className="block hover:text-secondary transition-colors">
+                {lang === 'ar' ? 'دليل شراء الجملة' : lang === 'fr' ? 'Guide d’achat grossiste' : 'Wholesale buying guide'}
+              </Link>
+              <Link href={getLocalizedHref('/faq', lang)} className="block hover:text-secondary transition-colors">
+                {lang === 'ar' ? 'أسئلة التصدير' : lang === 'fr' ? 'FAQ export & COA' : 'Export & COA FAQ'}
+              </Link>
+            </nav>
           </div>
 
           {/* Payments */}

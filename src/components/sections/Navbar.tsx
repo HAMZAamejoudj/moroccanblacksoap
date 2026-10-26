@@ -30,7 +30,6 @@ const Navbar = ({ dict, lang }: NavbarProps) => {
   }, []);
 
   const navLinks = [
-    { name: dict?.nav?.home || 'Home', href: getLocalizedHref('/', lang) },
     { name: dict?.nav?.about || 'About', href: getLocalizedHref('/about', lang) },
     { name: dict?.nav?.benefits || 'Benefits', href: getLocalizedHref('/benefits', lang) },
     { name: dict?.nav?.bulkOrder || 'Bulk Order', href: getLocalizedHref('/bulk-order', lang) },
@@ -64,7 +63,7 @@ const Navbar = ({ dict, lang }: NavbarProps) => {
             <div className="relative h-16 w-auto aspect-[572/474] md:h-24 transition-transform duration-300 group-hover:scale-105">
               <Image
                 src="/image/moroccan_black_soap_logo_vector.svg"
-                alt=""
+                alt="Moroccan Black Soap Wholesale logo"
                 fill
                 className={`object-contain ltr:object-left rtl:object-right ${light ? 'brightness-0 invert' : ''}`}
                 priority
