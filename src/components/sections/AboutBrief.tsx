@@ -244,33 +244,6 @@ const AboutBrief = ({ dict, lang }: AboutBriefProps) => {
         </div>
       </section>
 
-      <section className="py-24 bg-white" aria-labelledby="company-heading">
-        <div className={sectionShellClass}>
-          <h2 id="company-heading" className={`${sectionTitleClass} mb-10`}>
-            {dict.company.title}
-          </h2>
-          <div className={`${splitGridClass} lg:items-center`}>
-            <div className="relative mx-auto lg:mx-0 h-48 w-48 sm:h-56 sm:w-56 lg:h-64 lg:w-64 shrink-0">
-              <Image
-                src={dict.company.logo}
-                alt={dict.company.logoAlt}
-                fill
-                className="object-contain"
-                sizes="256px"
-              />
-            </div>
-            <ul className="grid gap-4 rounded-2xl border border-stone-100 bg-stone-50 p-6 shadow-sm">
-              {dict.company.items.map((item: string) => (
-                <li key={item} className="flex items-start gap-3 text-stone-700 leading-relaxed text-lg">
-                  <CheckCircle2 size={18} className="text-secondary shrink-0 mt-1" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-
       <section id="faq" className="py-24 bg-stone-50" aria-labelledby="about-faq-heading">
         <div className={sectionShellClass}>
           <h2 id="about-faq-heading" className={`${sectionTitleClass} mb-10`}>
