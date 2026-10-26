@@ -118,52 +118,30 @@ const Hero = ({ dict, lang }: HeroProps) => {
           >
             <motion.div variants={fadeInUp}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-primary leading-[1.15]">
-                {heroParagraphs ? (
-                  dict.hero.title
-                ) : (
-                  <>
-                    {dict?.hero?.title || 'Authentic Moroccan Black Soap Wholesale'}{' '}
-                    <span className="text-secondary">{dict?.hero?.titleHighlight || 'Pure, Organic Beldi Soap'}</span>
-                  </>
-                )}
+                {dict?.hero?.title || 'Authentic Moroccan Black Soap Wholesale'}{' '}
+                <span className="text-secondary">{dict?.hero?.titleHighlight || 'Pure, Organic Beldi Soap'}</span>
               </h1>
             </motion.div>
 
-            {heroParagraphs ? (
-              <div className="space-y-4">
-                {heroParagraphs.map((paragraph) => (
-                  <motion.p
-                    key={paragraph}
-                    variants={fadeInUp}
-                    className="text-lg md:text-xl text-stone-600 leading-relaxed font-sans"
-                  >
-                    {paragraph}
-                  </motion.p>
-                ))}
-              </div>
-            ) : (
-              <>
-                <motion.p
-                  variants={fadeInUp}
-                  className="text-lg md:text-xl text-stone-600 leading-relaxed font-sans"
-                >
-                  {dict?.hero?.description ||
-                    'Welcome to Moroccan Black Soap Wholesale. We supply 100% authentic, organic Beldi soap in bulk — sourced directly from Moroccan cooperatives, produced using traditional methods, and available for wholesale and export.'}
-                </motion.p>
+            <motion.p
+              variants={fadeInUp}
+              className="text-lg md:text-xl text-stone-600 leading-relaxed font-sans"
+            >
+              {dict?.hero?.description ||
+                'Welcome to Moroccan Black Soap Wholesale. We supply 100% authentic, organic Beldi soap in bulk — sourced directly from Moroccan cooperatives, produced using traditional methods, and available for wholesale and export.'}
+            </motion.p>
 
-                <motion.ul
-                  variants={fadeInUp}
-                  className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2"
-                >
-                  {currentAudiences.map((item: string) => (
-                    <li key={item} className="flex items-center gap-2 text-stone-600 text-sm">
-                      <CheckCircle2 size={14} className="text-secondary shrink-0" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </motion.ul>
-              </>
-            )}
+            <motion.ul
+              variants={fadeInUp}
+              className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2"
+            >
+              {currentAudiences.map((item: string) => (
+                <li key={item} className="flex items-center gap-2 text-stone-600 text-sm">
+                  <CheckCircle2 size={14} className="text-secondary shrink-0" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </motion.ul>
 
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-5 pt-2">
               <Link
@@ -179,16 +157,13 @@ const Hero = ({ dict, lang }: HeroProps) => {
                 />
               </Link>
               <Link
-                href={heroParagraphs ? getLocalizedHref('/contact', lang) : '#pricing'}
+                href="#pricing"
                 className="flex items-center justify-center gap-2 border-2 border-primary/20 text-primary px-8 py-5 rounded-full text-lg font-bold hover:border-secondary hover:text-secondary transition-all duration-300"
               >
-                {heroParagraphs
-                  ? dict.hero.ctaSamples
-                  : dict?.hero?.ctaPricing || 'View Pricing'}
+                {dict?.hero?.ctaPricing || 'View Pricing'}
               </Link>
             </motion.div>
 
-            {!heroParagraphs && (
             <motion.div
               variants={fadeInUp}
               className="flex items-center gap-8 pt-2"
@@ -218,7 +193,6 @@ const Hero = ({ dict, lang }: HeroProps) => {
                 </span>
               </div>
             </motion.div>
-            )}
           </motion.div>
 
           <motion.div
